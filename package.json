@@ -1,0 +1,24 @@
+{
+  "name": "clinic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/browser-sync  start --server --files='**/*'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aimee0103wu/clinic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aimee0103wu/clinic/issues"
+  },
+  "homepage": "https://github.com/Aimee0103wu/clinic#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.5"
+  }
+}

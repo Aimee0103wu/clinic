@@ -182,7 +182,7 @@ thead{
     opacity: 0.7;
     border-radius: 5px;
 }
-@media screen and (min-width:400px){
+@media screen and (min-width:768px){
     .mobilev{
         display: none !important;
     }
@@ -190,7 +190,7 @@ thead{
         display: none;
     }
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:768px){
     #logo{
         width: 60%;
         margin: auto;
@@ -207,6 +207,8 @@ thead{
     .bus{
         display: none;
     }
+    .selection{
+        margin:auto;
 }
 footer{
     background-color: #0c6625;
